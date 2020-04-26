@@ -10,7 +10,7 @@ import SwiftUI
 
 struct NavigationConfigurator: UIViewControllerRepresentable {
     var novConfigure: (UINavigationController) -> Void = { _ in }
-
+    
     func makeUIViewController(context: UIViewControllerRepresentableContext<NavigationConfigurator>) -> UIViewController {
         UIViewController()
     }
@@ -41,7 +41,7 @@ struct SwiftUIView: View {
             }
         }
         .navigationViewStyle(StackNavigationViewStyle())
-
+        
     }
 }
 struct SwiftUIView2: View {
